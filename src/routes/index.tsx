@@ -34,7 +34,7 @@ const primaryLinks = [
   },
   {
     label: "Nossa Localização",
-    href: "https://maps.app.goo.gl/uoiZ5yT9BrAa1cHJ8",
+    href: "https://www.google.com/maps/place/22%C2%B042'43.6%22S+43%C2%B018'12.0%22W/@-22.712101,-43.3059006,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-22.712101!4d-43.3033257?hl=pt-BR&entry=ttu&g_ep=EgoyMDI2MDkwOC4wIKXMDSoASAFQAw%3D%3D",
     icon: <MapPin className="h-6 w-6 shrink-0" strokeWidth={2.2} />,
   },
 ];
