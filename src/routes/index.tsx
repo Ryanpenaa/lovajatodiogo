@@ -29,7 +29,7 @@ const primaryLinks = [
   },
   {
     label: "Acesse Nosso Grupo de Vendas",
-    href: "https://wa.me/5521983851943?text=Olá!%20Gostaria%20de%20entrar%20no%20grupo%20de%20vendas",
+    href: "https://wa.me/5521965675717?text=Olá!%20Gostaria%20de%20entrar%20no%20grupo%20de%20vendas",
     icon: <WhatsAppIcon />,
   },
   {
