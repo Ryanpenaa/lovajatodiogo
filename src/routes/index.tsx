@@ -24,7 +24,7 @@ function WhatsAppIcon() {
 const primaryLinks = [
   {
     label: "Agendamento Lavagem",
-    href: "https://wa.me/5521965675717?text=Olá!%20Gostaria%20de%20agendar%20uma%20lavagem",
+    href: "https://wa.me/5521965675717?text=Gostaria%20de%20agendar%20uma%20limpeza%20do%20meu%20carro",
     icon: <WhatsAppIcon />,
   },
   {
