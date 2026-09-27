@@ -56,47 +56,6 @@ function Index() {
           </p>
         </header>
 
-        <section className="mt-7 w-full">
-          <a
-            href={agendaLink}
-            target="_blank"
-            rel="noreferrer"
-            className="group relative block w-full overflow-hidden rounded-3xl border border-blue-400/40 bg-gradient-to-br from-blue-600 via-blue-700 to-sky-500 p-5 text-white shadow-[0_18px_50px_rgba(37,99,235,0.35)] transition duration-200 hover:-translate-y-1 hover:shadow-[0_20px_60px_rgba(37,99,235,0.45)] active:scale-[0.99]"
-          >
-            <div className="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-white/10 blur-2xl" />
-
-            <div className="relative z-10">
-              <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/95 px-3 py-1.5 text-xs font-extrabold uppercase tracking-wide text-zinc-900 shadow">
-                <img src={ceraLogo} alt="CERA" className="h-5 w-auto" />
-                Parceria oficial
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-white/15 text-white">
-                  <CalendarDays className="h-7 w-7" strokeWidth={2.2} />
-                </div>
-
-                <div className="flex-1">
-                  <p className="text-xs font-semibold uppercase tracking-[0.18em] text-blue-100">
-                    Agendamento online
-                  </p>
-                  <h2 className="mt-1 text-2xl font-extrabold leading-tight sm:text-3xl">
-                    Agende sua lavagem
-                  </h2>
-                  <p className="mt-2 max-w-md text-sm leading-relaxed text-blue-50/90 sm:text-base">
-                    Escolha o serviço, veja os horários disponíveis e faça seu
-                    agendamento em poucos cliques.
-                  </p>
-
-                  <div className="mt-4 inline-flex items-center rounded-2xl bg-white px-4 py-2.5 text-sm font-extrabold text-blue-700 transition group-hover:bg-blue-50">
-                    ACESSAR AGENDA →
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </section>
-
         <section
           aria-label="Outros acessos"
           className="mt-5 flex w-full flex-col items-center gap-3.5"
@@ -120,6 +79,41 @@ function Index() {
               </span>
             </a>
           ))}
+        </section>
+
+        <section className="mt-4 flex w-full justify-center">
+          <a
+            href={agendaLink}
+            target="_blank"
+            rel="noreferrer"
+            className="group relative flex min-h-20 w-[90%] max-w-md items-center gap-3 overflow-hidden rounded-2xl border border-blue-400/40 bg-gradient-to-r from-blue-600 to-sky-500 px-4 py-3.5 text-white shadow-lg shadow-blue-950/30 transition duration-200 hover:-translate-y-0.5 hover:shadow-blue-950/40 active:scale-[0.985]"
+          >
+            <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white/15">
+              <CalendarDays className="h-6 w-6" strokeWidth={2.2} />
+            </div>
+
+            <div className="min-w-0 flex-1">
+              <div className="mb-1 flex items-center gap-2">
+                <span className="text-[10px] font-bold uppercase tracking-wide text-blue-100">
+                  Agenda online
+                </span>
+                <span className="inline-flex items-center gap-1 rounded-full bg-white/95 px-2 py-0.5 text-[9px] font-extrabold uppercase text-zinc-900">
+                  <img src={ceraLogo} alt="CERA" className="h-3.5 w-auto" />
+                  Parceria
+                </span>
+              </div>
+              <p className="text-base font-extrabold leading-tight">
+                Agende sua lavagem
+              </p>
+              <p className="mt-0.5 text-xs text-blue-50/90">
+                Escolha o serviço e o melhor horário.
+              </p>
+            </div>
+
+            <span className="text-xl font-bold text-white" aria-hidden="true">
+              ›
+            </span>
+          </a>
         </section>
 
         <footer className="mt-auto flex w-full flex-col items-center pt-10 text-center">
