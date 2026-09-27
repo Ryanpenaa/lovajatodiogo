@@ -89,22 +89,22 @@ function Index() {
             </a>
           ))}
 
-          <button
-            type="button"
-            disabled
-            aria-disabled="true"
-            className="relative flex min-h-16 w-[90%] max-w-md cursor-not-allowed items-center gap-3 rounded-2xl border border-white/10 bg-zinc-700/60 px-5 py-4 text-left font-semibold text-zinc-300 opacity-55"
+          <a
+            href="https://pay.cakto.com.br/engra6s_1136817"
+            target="_blank"
+            rel="noreferrer"
+            className="group flex min-h-16 w-[90%] max-w-md items-center gap-3 rounded-2xl border border-blue-500/40 bg-blue-600 px-5 py-4 text-left font-semibold text-white shadow-lg shadow-blue-950/30 transition duration-200 hover:-translate-y-0.5 hover:bg-blue-500 hover:shadow-blue-950/40 active:scale-[0.985]"
           >
-            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-zinc-600 text-zinc-300">
+            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white/15 text-white transition group-hover:bg-white/20">
               <GraduationCap className="h-6 w-6" strokeWidth={2.2} />
             </span>
             <span className="flex-1 text-[15px] leading-tight sm:text-base">
               Curso Lavajato do Zero
             </span>
-            <span className="rounded-full border border-blue-400/40 bg-blue-500/15 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-blue-300">
-              Em breve
+            <span className="text-xl text-white" aria-hidden="true">
+              ›
             </span>
-          </button>
+          </a>
         </section>
 
         <footer className="mt-auto flex w-full flex-col items-center pt-10 text-center">
