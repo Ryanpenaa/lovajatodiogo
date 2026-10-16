@@ -20,7 +20,7 @@ export const Route = createFileRoute("/")({
 });
 
 const agendaLink =
-  "https://minhaautoagenda.com/p/lava-jato-do-diogo?utm_source=ig&utm_medium=social&utm_content=link_in_bio";
+  "https://wa.me/5521983851943?text=Ol%C3%A1%21%20Vim%20pelo%20link%20da%20bio%20do%20Lavajato%20do%20Diogo%20e%20gostaria%20de%20agendar%20uma%20lavagem.%20Pode%20me%20passar%20os%20hor%C3%A1rios%20dispon%C3%ADveis%3F";
 
 const courseLink =
   "https://pay.cakto.com.br/engra6s_1136817?utm_source=instagram&utm_medium=link_in_bio&utm_campaign=lavajato_diogo&utm_content=curso_lavajato";
@@ -41,7 +41,7 @@ const services = [
 const menuItems = [
   {
     label: "Agendar Lavagem",
-    description: "Escolha o serviço e o melhor horário",
+    description: "Fale com a gente pelo WhatsApp",
     href: agendaLink,
     icon: CalendarDays,
     highlight: true,
