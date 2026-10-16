@@ -5,12 +5,10 @@ import {
   Camera,
   CarFront,
   ChevronRight,
-  Droplets,
   GraduationCap,
   Instagram,
   MapPin,
   ShieldCheck,
-  Sparkles,
   Star,
   Youtube,
 } from "lucide-react";
@@ -30,13 +28,6 @@ const locationLink =
 
 const instagramLink = "https://www.instagram.com/lavajatododiogo_pilar/";
 const youtubeLink = "https://www.youtube.com/@Lavajatododiogo_pilar";
-
-const services = [
-  { title: "Lavagem Completa", icon: Droplets },
-  { title: "Higienização Interna", icon: Sparkles },
-  { title: "Polimento e Proteção", icon: Star },
-  { title: "Detalhamento Premium", icon: ShieldCheck },
-];
 
 const menuItems = [
   {
@@ -121,27 +112,6 @@ function Index() {
             </p>
           </div>
         </header>
-
-        <section className="relative z-10 mt-4 grid grid-cols-2 gap-3">
-          {services.map((item) => {
-            const Icon = item.icon;
-
-            return (
-              <div
-                key={item.title}
-                className="rounded-2xl border border-white/10 bg-[#0d0d0d] p-3.5 text-center"
-              >
-                <div className="mx-auto flex h-11 w-11 items-center justify-center rounded-full border border-[#ff5a00]/50 bg-[#ff5a00]/10 text-[#ff7a2f]">
-                  <Icon className="h-5 w-5" strokeWidth={2.2} />
-                </div>
-
-                <p className="mt-2.5 text-[13px] font-bold leading-tight text-white">
-                  {item.title}
-                </p>
-              </div>
-            );
-          })}
-        </section>
 
         <section className="relative z-10 mt-5 rounded-[28px] border border-white/10 bg-[#0d0d0d] p-4 shadow-[0_0_35px_rgba(255,90,0,0.05)]">
           <div className="mb-4 flex items-end justify-between gap-3">
